@@ -73,7 +73,7 @@ will be displayed.<br><br>
 - To get weather information, input following format 'weather'<br><br>
 <img src="image/weather.jpg" width="50%"><br>
 - To start notification, input following format 'start Hour Min'<br><br>
-<img src="image/start.jpg" width="50%"><br>
+<img src="image/noti.jpg" width="50%"><br>
 - To exit notification, input following format 'exit'<br><br>
 <img src="image/exit.jpg" width="50%"><br>
 ## Additional Implementation
