@@ -51,7 +51,14 @@ Access the link above and get the api key for Current Weather Data.<br>
 Access the link above and get the api key for geocoding.<br>
 
 ## How to use
+1. Add a bot to the Discord server where you are the administrator.<br>
+<img src="image/bot-id.jpg" width="60%"><br>
 
+discordapp.com/oauth2/authorize?client_id=
+**Your Client ID**
+&scope=bot<br>
+Enter the client id value to access the link above.
+2. Run index.js in /src. The data is saved in output.txt.<br>
 ## Additional Implementation
 
 1. node 2. axios 3. discord.js 4. dotenv 5. node-schedule
