@@ -53,12 +53,29 @@ Access the link above and get the api key for geocoding.<br>
 ## How to use
 1. Add a bot to the Discord server where you are the administrator.<br>
 <img src="image/bot-id.jpg" width="60%"><br>
-
+Copy Yout Client ID.<br>
 discordapp.com/oauth2/authorize?client_id=
 **Your Client ID**
 &scope=bot<br>
-Enter the client id value to access the link above.
-2. Run index.js in /src. The data is saved in output.txt.<br>
+Enter the client id value to access the link above.<br><br>
+2. Run index.js using the command below<br>
+```
+node index.js
+```
+<br>
+3. If the chat-bot is activated correctly,
+**Logged in as 'Bot Name'!**
+will be displayed.<br><br>
+
+4. Send a personal message to the chat-bot.<br>
+- To set location, input following format 'location Address'<br><br>
+<img src="image/location.jpg" width="30%"><br>
+- To get weather information, input following format 'weather'<br><br>
+<img src="image/weather.jpg" width="30%"><br>
+- To start notification, input following format 'start Hour Min'<br><br>
+<img src="image/start.jpg" width="30%"><br>
+- To exit notification, input following format 'exit'<br><br>
+<img src="image/exit.jpg" width="30%"><br>
 ## Additional Implementation
 
 1. node 2. axios 3. discord.js 4. dotenv 5. node-schedule
