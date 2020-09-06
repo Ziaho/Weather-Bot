@@ -74,3 +74,6 @@ Notification provide weather information at a set time every day.<br>
 <img src="image/noti.jpg" width="50%"><br><br>
 To exit notification, input following format 'exit'<br>
 <img src="image/exit.jpg" width="50%"><br><br>
+## Precautions
+1. You need to create an .env file and save the API keys.
+2. Be careful with spaces and send a message in the specified format.
