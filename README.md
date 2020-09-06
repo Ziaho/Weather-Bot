@@ -63,19 +63,15 @@ Enter the client id value to access the link above.<br><br>
 node index.js
 ```
 <br>
-3. If the chat-bot is activated correctly,
-**Logged in as Bot Name!**
-will be displayed.<br><br>
+3. If the chat-bot is activated correctly, "Logged in as 'Bot Name'"will be displayed.<br><br>
 
 4. Send a personal message to the chat-bot.<br>
-- To set location, input following format 'location Address'<br><br>
-<img src="image/location.jpg" width="50%"><br>
-- To get weather information, input following format 'weather'<br><br>
-<img src="image/weather.jpg" width="50%"><br>
-- To start notification, input following format 'start Hour Min'<br><br>
-<img src="image/noti.jpg" width="50%"><br>
-- To exit notification, input following format 'exit'<br><br>
-<img src="image/exit.jpg" width="50%"><br>
+To set location, input following format 'location Address'<br>
+<img src="image/location.jpg" width="50%"><br><br>
+To get weather information, input following format 'weather'<br>
+<img src="image/weather.jpg" width="50%"><br><br>
+To start notification, input following format 'start Hour Min'<br>
+<img src="image/noti.jpg" width="50%"><br><br>
+To exit notification, input following format 'exit'<br>
+<img src="image/exit.jpg" width="50%"><br><br>
 ## Additional Implementation
-
-1. node 2. axios 3. discord.js 4. dotenv 5. node-schedule
