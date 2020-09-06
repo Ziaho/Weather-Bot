@@ -58,11 +58,9 @@ discordapp.com/oauth2/authorize?client_id=
 **Your Client ID**
 &scope=bot<br>
 Enter the client id value to access the link above.<br><br>
-2. Run index.js using the command below<br>
-```
-node index.js
-```
-<br>
+
+2. Run index.js using the __node index.js__ command <br>
+
 3. If the chat-bot is activated correctly, "Logged in as 'Bot Name'"will be displayed.<br><br>
 
 4. Send a personal message to the chat-bot.<br>
