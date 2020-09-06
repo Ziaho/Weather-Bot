@@ -77,3 +77,4 @@ To exit notification, input following format 'exit'<br>
 ## Precautions
 1. You need to create an .env file and save the API keys.
 2. Be careful with spaces and send a message in the specified format.
+3. If you want your chat-bot to work all the time, you have to use a cloud service like AWS.
