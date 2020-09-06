@@ -1,8 +1,8 @@
 # Weather Automatic Response Chat-Bot
 ## Outline
 Weather Automatic Response Chat-Bot.<br>
-The program can be used for any document in title-body format, such as news articles, song lyrics, book plots, etc.<br>
-I used the articles read a lot by date on https://news.daum.net/ as document data.<br>
+This program converts the entered address into coordinates and obtains weather information for those coordinates.<br>
+Also use the Discord chat-bot to receive weather information as a Discord notification at any time you want.<br>
 ## Platform, Library, Packages & Modules
 ### Node.js
 [Node.js Installation Manual](https://nodejs.org/en/)
