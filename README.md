@@ -43,7 +43,7 @@ Access the link above and get the api key for Current Weather Data.<br>
 ### Discord bot
 [Discord Bot](https://discordapp.com/developers/applications)<br>
 1. Access the link above and create new application.<br><br>
-<img src="image/create.jpg" width="60%"><br>
+<img src="image/new.jpg" width="30%"><br>
 2. Get the chat-bot api key.<br><br>
 <img src="image/discordAPI.jpg" width="60%"><br>
 ### Kakao Geocoding
