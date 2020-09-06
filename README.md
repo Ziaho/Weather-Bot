@@ -74,4 +74,3 @@ Notification provide weather information at a set time every day.<br>
 <img src="image/noti.jpg" width="50%"><br><br>
 To exit notification, input following format 'exit'<br>
 <img src="image/exit.jpg" width="50%"><br><br>
-## Additional Implementation
