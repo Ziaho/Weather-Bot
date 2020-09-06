@@ -64,7 +64,7 @@ node index.js
 ```
 <br>
 3. If the chat-bot is activated correctly,
-**Logged in as 'Bot Name'!**
+**Logged in as Bot Name!**
 will be displayed.<br><br>
 
 4. Send a personal message to the chat-bot.<br>
