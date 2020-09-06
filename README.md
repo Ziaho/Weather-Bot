@@ -1,8 +1,8 @@
 # Weather Automatic Response Chat-Bot
 ## Outline
 Weather Automatic Response Chat-Bot.<br>
-The program can be used for any document in title-body format, such as news articles, song lyrics, book plots, etc.<br>
-I used the articles read a lot by date on https://news.daum.net/ as document data.<br>
+This program converts the entered address into coordinates and obtains weather information for those coordinates.<br>
+Also use the Discord chat-bot to receive weather information as a Discord notification at any time you want.<br>
 ## Platform, Library, Packages & Modules
 ### Node.js
 [Node.js Installation Manual](https://nodejs.org/en/)
@@ -43,7 +43,7 @@ Access the link above and get the api key for Current Weather Data.<br>
 ### Discord bot
 [Discord Bot](https://discordapp.com/developers/applications)<br>
 1. Access the link above and create new application.<br><br>
-<img src="image/create.jpg" width="60%"><br>
+<img src="image/new.jpg" width="30%"><br>
 2. Get the chat-bot api key.<br><br>
 <img src="image/discordAPI.jpg" width="60%"><br>
 ### Kakao Geocoding
@@ -51,7 +51,14 @@ Access the link above and get the api key for Current Weather Data.<br>
 Access the link above and get the api key for geocoding.<br>
 
 ## How to use
+1. Add a bot to the Discord server where you are the administrator.<br>
+<img src="image/bot-id.jpg" width="60%"><br>
 
+discordapp.com/oauth2/authorize?client_id=
+**Your Client ID**
+&scope=bot<br>
+Enter the client id value to access the link above.
+2. Run index.js in /src. The data is saved in output.txt.<br>
 ## Additional Implementation
 
 1. node 2. axios 3. discord.js 4. dotenv 5. node-schedule
