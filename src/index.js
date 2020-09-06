@@ -75,12 +75,13 @@ client.on('message', async msg => {
     }
   }
   //Start notification
-  else if (msg.content === 'start')
+  else if (msg.content.split(' ')[0] === 'start')
   {
+    time = String("0 " + msg.content.split(' ')[2] + " " + msg.content.split(' ')[1] + " * * *");
     if(location) 
     {
       msg.reply('Start notification.');
-      job = schedule.scheduleJob(every8AM, async function(){
+      job = schedule.scheduleJob(time, async function(){
         let weatherData = await getWeather(lat, lon);
 
         msg.reply("The weather in" + location +" is " + String(weatherData.weather[0].main));
