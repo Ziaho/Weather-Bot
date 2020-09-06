@@ -61,7 +61,7 @@ Enter the client id value to access the link above.<br><br>
 
 2. Run index.js using the __node index.js__ command <br>
 
-3. If the chat-bot is activated correctly, "Logged in as 'Bot Name'"will be displayed.<br><br>
+3. If the chat-bot is activated correctly, "Logged in as 'Bot Name'"will be displayed.<br>
 
 4. Send a personal message to the chat-bot.<br>
 To set location, input following format 'location Address'<br>
@@ -69,6 +69,8 @@ To set location, input following format 'location Address'<br>
 To get weather information, input following format 'weather'<br>
 <img src="image/weather.jpg" width="50%"><br><br>
 To start notification, input following format 'start Hour Min'<br>
+Hours range from 0 to 23 and minutes range from 0 to 59.<br>
+Notification provide weather information at a set time every day.<br>
 <img src="image/noti.jpg" width="50%"><br><br>
 To exit notification, input following format 'exit'<br>
 <img src="image/exit.jpg" width="50%"><br><br>
